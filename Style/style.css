@@ -1,5 +1,35 @@
 .glava {
-    border: 1px, solid, black;
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 1px solid black;
     border-radius: 8px;
     margin: 0 avto;
+    background-color: rgb(235, 243, 243);
+    height: 150px;
+    width: auto;
+    padding: 10px;
+}
+
+#profilePicture{
+    order: 1;
+    align-self: flex-start;
+    height: 90%;
+    width: auto;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+#naslovnaKartica{
+    order: 2;
+    align-self: flex-start;
+    align-items: flex-start;
+}
+#naslov2{
+    list-style-type: none;
+}
+#button1{
+    order: 3;
 }
