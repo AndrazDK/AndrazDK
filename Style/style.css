@@ -32,4 +32,13 @@
 }
 #button1{
     order: 3;
+    background-color: rgb(67, 127, 216);
+    border: none;
+    border-radius: 30%;
+    color: white;
+    margin: 2%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
 }
