@@ -30,7 +30,6 @@ footer {
 }
 
 .glava {
-    position: sticky;
     top: 0;
     display: flex;
     flex-direction: row;
@@ -60,10 +59,24 @@ footer {
 .okvir1{
     display: flex;
 }
+
+.okvir2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.okvir2-1{
+    border: 2px solid rgb(218, 28, 194);
+    width: 300px;
+    margin: 5px;
+    background-color: black;
+    text-align:center;
+}
 .omeni{
     background-color: black;
     width: 400px;
-    height: 310px;
+    height: auto;
     border: 2px solid rgb(218, 28, 194);
     margin: 5px;
     padding: 5px;
@@ -73,6 +86,20 @@ footer {
     border: 2px solid rgb(218, 28, 194);
     margin: 5px;
     margin-left: 300px;
+}
+
+.okvir3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.izkusnje{
+    border: 2px solid rgb(218, 28, 194);
+    width: 500px;
+    height: 300;
+    margin: 5px;
+    background-color: black;
 }
 
 
