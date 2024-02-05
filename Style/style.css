@@ -1,5 +1,32 @@
 #background{
 background-image: url('/image/Idejna\ zasnova.jpg');
+background-size: 100%;
+background-repeat: no-repeat;
+background-position: center;
+}
+
+h1 {
+    color: green;
+}
+
+h2 {
+    color: green;
+}
+
+h3 {
+    color: green
+}
+
+p {
+    color: green;
+}
+
+li {
+    color: green;
+}
+
+footer {
+    color: green;
 }
 
 .glava {
@@ -7,9 +34,10 @@ background-image: url('/image/Idejna\ zasnova.jpg');
     top: 0;
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    border: 1px solid black;
-    border-radius: 8px;
+    justify-content: left;
+    border: 5px solid rgb(218, 28, 194);
+    border-radius: 2px;
+    outline-style: sloid rgba(218, 28, 194, 0.452);
     margin: 0 avto;
     background-color: rgba(235, 243, 243, 0);
     height: 150px;
@@ -22,6 +50,30 @@ background-image: url('/image/Idejna\ zasnova.jpg');
     padding: 5px;
 }
 
+.okvir{
+    display: flex;
+    border: 2px solid rgb(218, 28, 194);
+    width: auto;
+    margin: 5px;
+    background-color: black;
+}
+.okvir1{
+    display: flex;
+}
+.omeni{
+    background-color: black;
+    width: 400px;
+    height: 310px;
+    border: 2px solid rgb(218, 28, 194);
+    margin: 5px;
+    padding: 5px;
+}
+.youtube{
+    background-color: black;
+    border: 2px solid rgb(218, 28, 194);
+    margin: 5px;
+    margin-left: 300px;
+}
 
 
 
