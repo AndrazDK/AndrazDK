@@ -117,6 +117,13 @@ footer {
     background-color: black;
     text-align: center;
 }
+footer{
+    text-align: center;
+    width: auto;
+    height: 200px;
+    border: 2px solid rgb(218, 28, 194);
+    background-color: black;
 
+}
 
 
