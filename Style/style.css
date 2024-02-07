@@ -79,7 +79,7 @@ footer {
     height: auto;
     border: 2px solid rgb(218, 28, 194);
     margin: 5px;
-    padding: 5px;
+    padding: 10px;
 }
 .youtube{
     background-color: black;
@@ -99,7 +99,23 @@ footer {
     width: 500px;
     height: 300;
     margin: 5px;
+    padding: 10px;
     background-color: black;
+}
+.okvir4{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.izkusnje1{
+    border: 2px solid rgb(218, 28, 194);
+    width: 500px;
+    height: 300;
+    margin: 5px;
+    padding: 10px;
+    background-color: black;
+    text-align: center;
 }
 
 
