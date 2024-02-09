@@ -7,6 +7,7 @@ background-position: center;
 
 h1 {
     color: green;
+    
 }
 
 h2 {
@@ -29,19 +30,21 @@ footer {
     color: green;
 }
 
+ul {
+    list-style-type: none;
+}
 .glava {
     top: 0;
     display: flex;
     flex-direction: row;
     justify-content: left;
-    border: 5px solid rgb(218, 28, 194);
+    border: 5px solid rgb(218, 28, 193);
     border-radius: 2px;
-    outline-style: sloid rgba(218, 28, 194, 0.452);
     margin: 0 avto;
-    background-color: rgba(235, 243, 243, 0);
     height: 150px;
     width: auto;
     padding: 10px;
+    background-color: black;
 }
 
 #profilePicture{
@@ -80,12 +83,13 @@ footer {
     border: 2px solid rgb(218, 28, 194);
     margin: 5px;
     padding: 10px;
+    margin-left: 200px;
 }
 .youtube{
     background-color: black;
     border: 2px solid rgb(218, 28, 194);
     margin: 5px;
-    margin-left: 300px;
+    margin-left: 550px;
 }
 
 .okvir3{
