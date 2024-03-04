@@ -5,10 +5,15 @@
 - 📫 How to reach me: DM me.
 
 - At the moment I am redoing my personal website. Site will serve the purpes of being my CV an my portfolio site. 
-- For now I am working on organizing diferent aspects of the site. Where it should go and what looks the best. 
-- The next faze, will be ading animation of text and finetooning the site. 
 
-- For know my bigest problem, that I havent manage to solve was how to make H1 text glow.
+
+To do:
+1. Animate the Text
+2. Animate the fields
+3. Button vor PDF
+4. E-Mail adress must be link vor writing E-Mail
+5. Telphone Number must be accacible vor contact
+6. ...
 <!---
 AndrazDK/AndrazDK is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.

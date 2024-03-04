@@ -3,6 +3,7 @@ background-image: url('/image/Idejna\ zasnova.jpg');
 background-size: 100%;
 background-repeat: no-repeat;
 background-position: center;
+
 }
 
 h1 {
@@ -121,10 +122,20 @@ ul {
     background-color: black;
     text-align: center;
 }
+.kontakt{
+    display: flex;
+    justify-content: center;
+}
+.info{
+    padding: 1%;
+}
+.MailForm{
+    padding: 1%;
+}
 footer{
     text-align: center;
     width: auto;
-    height: 200px;
+    height: auto;
     border: 2px solid rgb(218, 28, 194);
     background-color: black;
 
