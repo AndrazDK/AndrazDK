@@ -1,3 +1,4 @@
+
 #background{
 background-image: url('/image/Idejna\ zasnova.jpg');
 background-size: 100%;
@@ -21,6 +22,7 @@ h3 {
 
 p {
     color: green;
+    
 }
 
 li {
@@ -85,12 +87,15 @@ ul {
     margin: 5px;
     padding: 10px;
     margin-left: 200px;
+    border-radius: 10%;
 }
 .youtube{
     background-color: black;
     border: 2px solid rgb(218, 28, 194);
+    padding: 1%;
     margin: 5px;
-    margin-left: 550px;
+    margin-left: 500px;
+    border-radius: 10%;
 }
 
 .okvir3{
@@ -101,11 +106,12 @@ ul {
 }
 .izkusnje{
     border: 2px solid rgb(218, 28, 194);
-    width: 500px;
+    width: 400px;
     height: 300;
-    margin: 5px;
+    margin: 50px;
     padding: 10px;
     background-color: black;
+    border-radius: 15%;
 }
 .okvir4{
     display: flex;
@@ -121,6 +127,7 @@ ul {
     padding: 10px;
     background-color: black;
     text-align: center;
+    border-radius: 15%;
 }
 .kontakt{
     display: flex;
