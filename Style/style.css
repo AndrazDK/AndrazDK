@@ -20,28 +20,38 @@ h1 {
 }
 
 h2 {
-    color: green;
+    color: rgb(21, 161, 21);
+    text-shadow: 
+    0 0 2px rgb(0, 0, 0);
 }
 
 h3 {
-    color: green
+    color: rgb(21, 161, 21);
+    text-shadow: 
+    0 0 2px rgb(0, 0, 0);
 }
 
 p {
-    color: green;
-    
+    color: rgb(21, 161, 21);
+    text-shadow: 
+    0 0 2px rgb(0, 0, 0);
 }
 
 li {
-    color: green;
+    color: rgb(21, 161, 21);
+    text-shadow: 
+    0 0 2px rgb(0, 0, 0);
 }
 
 footer {
-    color: green;
+    color: rgb(21, 161, 21);
+    text-shadow: 
+    0 0 2px rgb(0, 0, 0);
 }
 
 ul {
     list-style-type: none;
+    
 }
 .glava {
     top: 0;
@@ -62,13 +72,15 @@ ul {
 
 .okvir{
     display: flex;
-    border: 2px solid rgb(218, 28, 194);
+    border: 2px solid rgba(218, 28, 193, 0);
+    
     width: auto;
     margin: 5px;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 .okvir1{
     display: flex;
+    
 }
 
 .okvir2 {
@@ -76,27 +88,31 @@ ul {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    
 }
 .okvir2-1{
-    border: 2px solid rgb(218, 28, 194);
+    border: 2px solid rgba(218, 28, 193, 0);
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.712);
     width: 300px;
     margin: 5px;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.5);
     text-align:center;
 }
 .omeni{
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.5);
     width: 400px;
     height: auto;
-    border: 2px solid rgb(218, 28, 194);
+    border: 2px solid rgba(218, 28, 193, 0);
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.712);
     margin: 5px;
     padding: 10px;
     margin-left: 200px;
     border-radius: 10%;
 }
 .youtube{
-    background-color: black;
-    border: 2px solid rgb(218, 28, 194);
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 2px solid rgba(218, 28, 193, 0);
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.712);
     padding: 1%;
     margin: 5px;
     margin-left: 500px;
@@ -110,12 +126,13 @@ ul {
     align-items: center;
 }
 .izkusnje{
-    border: 2px solid rgb(218, 28, 194);
+    border: 2px solid rgba(218, 28, 193, 0);
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.712);
     width: 400px;
     height: 300;
     margin: 50px;
     padding: 10px;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.5);
     border-radius: 15%;
 }
 .okvir4{
@@ -125,15 +142,78 @@ ul {
     align-items: center;
 }
 .izkusnje1{
-    border: 2px solid rgb(218, 28, 194);
+    border: 2px solid rgba(218, 28, 193, 0);
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.712);
     width: 500px;
-    height: 300;
+    height: 500;
     margin: 5px;
     padding: 10px;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.5);
     text-align: center;
     border-radius: 15%;
 }
+
+.button {
+  align-items: center;
+  background-color: #000000;
+  border: 2px solid #407a10;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  font-family: Inter,sans-serif;
+  font-size: 16px;
+  height: 48px;
+  justify-content: center;
+  line-height: 24px;
+  max-width: 100%;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button:after {
+  background-color: #2d8313;
+  border-radius: 8px;
+  content: "";
+  display: block;
+  height: 48px;
+  left: 0;
+  width: 100%;
+  position: absolute;
+  top: -2px;
+  transform: translate(8px, 8px);
+  transition: transform .2s ease-out;
+  z-index: -1;
+}
+
+.button:hover:after {
+  transform: translate(0, 0);
+}
+
+.button:active {
+  background-color: #c51717;
+  outline: 0;
+}
+
+.button:hover {
+  outline: 0;
+}
+
+@media (min-width: 768px) {
+  .button {
+    padding: 0 40px;
+  }
+}
+.button > a{
+    text-decoration: none;
+    color: #249116;
+}
+
 .kontakt{
     display: flex;
     justify-content: center;
@@ -148,8 +228,9 @@ footer{
     text-align: center;
     width: auto;
     height: auto;
-    border: 2px solid rgb(218, 28, 194);
-    background-color: black;
+    border: 2px solid rgba(218, 28, 193, 0);
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.712);
+    background-color: rgba(0, 0, 0, 0.5);
 
 }
 
